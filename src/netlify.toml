@@ -1,0 +1,17 @@
+# netlify.toml
+
+[build]
+  command = "npm run build" # Replace this with your build command
+  publish = "build" # Replace this with your build output directory
+
+[context.production.environment]
+  NODE_ENV = "production"
+
+[context.split1]
+  command = "npm run build:split1" # Example: Split build command for a specific context
+  publish = "split1" # Example: Split build output directory for a specific context
+
+[[redirects]]
+from = '/*'
+to = 'index.html'
+status = 200
