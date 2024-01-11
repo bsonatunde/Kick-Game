@@ -25,10 +25,12 @@ const Home = () => {
             <img
               
               src={noti}
+              alt='auto'
               
             />
             <img
               src={pic}
+              alt='auto'
             />
           </div>
         </span>
@@ -48,6 +50,7 @@ const Home = () => {
                         </div>
                         <img
                          src={eye}
+                         alt='auto'
                         />
                       </span>
                       <div className="text-zinc-800 text-xl mt-5">$4500.99</div>
@@ -83,6 +86,7 @@ const Home = () => {
         </span>
         <img
          src={frame1}
+         alt='auto'
         />
         <div className="text-white text-sm mt-7 max-md:max-w-full">
           Recommended for you
@@ -92,6 +96,7 @@ const Home = () => {
             <div className="flex flex-col items-stretch w-[28%] max-md:w-full max-md:ml-0">
               <img
                src={frame2}
+               alt='auto'
               />
             </div>
             <div className="flex flex-col items-stretch w-[28%] ml-5 max-md:w-full max-md:ml-0">
@@ -108,6 +113,7 @@ const Home = () => {
               <img
                
                 src={frame5}
+                alt='auto'
               />
             </div>
           </div>

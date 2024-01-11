@@ -14,7 +14,7 @@ function LeaderBoard(props) {
       </div>
       <div className=" bg-[#060D1F] bg-cover p-4">
       <div className="">
-        <img src={backgroundImage} className="absolute" />
+        <img src={backgroundImage}   alt='auto' className="absolute" />
 
       <div className="text-white text-base w-full max-md:max-w-full pt-20">
         Hey Stella.
@@ -29,6 +29,7 @@ function LeaderBoard(props) {
     <div>
       <img
       src={leader}
+      alt='auto'
       />
     </div>
     <div className="grid grid-cols-2 gap-12">

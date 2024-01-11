@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Register from './pages/Register';
 import WelcomePage from './pages/WelcomePage';
 import LeaderBoard from './pages/LeaderBoard';
-import Game_mode from './pages/Game_mode';
+import Game_mode from './pages/Gamemode';
 
 
 
@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/Register" element={<Register/>} />
           <Route path="/WelcomePage" element={<WelcomePage/>} />
           <Route path="/LeaderBoard" element={<LeaderBoard/>} />
-          <Route path="/Game_mode" element={<Game_mode/>} />
+          <Route path="/Gamemode" element={<Game_mode/>} />
     
           </Routes>
    

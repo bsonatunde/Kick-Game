@@ -11,6 +11,8 @@ const Register = () => {
       <span className="flex w-[349px] max-w-full flex-col mt-36 max-md:mt-10">
         <img
          src={logo}
+         alt='auto'
+         
         />
       </span>
       <div className="text-white text-base self-center whitespace-nowrap mt-24 max-md:mt-10">
@@ -19,6 +21,7 @@ const Register = () => {
       <FormComponent />
       <img
       src={foot}
+      alt='auto'
       />
     </div>
   );

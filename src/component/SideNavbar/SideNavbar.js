@@ -36,7 +36,7 @@ const SideNavbar = () => {
           </div>
         </span>
         </Link>
-        <Link to='/'>
+        <Link to='/Game_mode'>
         <span className="items-stretch self-stretch hover:bg-pink-600 flex justify-between gap-4 mt-4 px-6 py-4 rounded-xl max-md:px-5">
           <img
           src={play}
@@ -46,7 +46,7 @@ const SideNavbar = () => {
           </div>
         </span>
         </Link>
-        <Link to='/'>
+        <Link to='/LeaderBoard'>
         <span className="items-stretch self-stretch hover:bg-pink-600 flex justify-between gap-4 mt-4 px-6 py-4 rounded-xl max-md:px-5">
           <img
             src={leader}

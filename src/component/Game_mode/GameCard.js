@@ -6,6 +6,7 @@ function GameCard(props) {
     <div className="">
       <img
       src={field}
+      alt='auto'
       />
     </div>
   );

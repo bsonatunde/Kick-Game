@@ -20,6 +20,7 @@ function GameList() {
             <div className="justify-center items-center border border-[color:var(--Blue-0,#EBECFD)] shadow-sm bg-zinc-50 flex grow flex-col w-full px-5 py-4 rounded-3xl border-solid max-md:mt-10">
               <img
                 src={badg1}
+                alt='auto'
               />
             </div>
           </div>
@@ -36,6 +37,7 @@ function GameList() {
             <div className="justify-center items-center border border-[color:var(--Blue-0,#EBECFD)] shadow-sm bg-zinc-50 flex grow flex-col w-full px-5 py-4 rounded-3xl border-solid max-md:mt-10">
               <img
                src={badg2}
+               alt='auto'
               />
             </div>
           </div>
@@ -52,6 +54,7 @@ function GameList() {
             <div className="justify-center items-center border border-[color:var(--Blue-0,#EBECFD)] shadow-sm bg-zinc-50 flex grow flex-col w-full px-5 py-4 rounded-3xl border-solid max-md:mt-10">
               <img
                  src={badg3}
+                 alt='auto'
               />
             </div>
           </div>
@@ -65,6 +68,7 @@ function GameList() {
       <div className="backdrop-blur-[2px] bg-violet-50 bg-opacity-10 flex w-full justify-between gap-5 mt-16 pl-10 pr-7 py-8 rounded-2xl items-start max-md:max-w-full max-md:flex-wrap max-md:mt-10 max-md:px-5">
         <img
           src={rec1}
+          alt='auto'
         />
         <span className="items-stretch self-center flex grow basis-[0%] flex-col my-auto">
           <div className="text-white text-center text-sm font-[350] leading-4 uppercase self-center whitespace-nowrap">
@@ -82,6 +86,7 @@ function GameList() {
         </span>
         <img
           src={rec2}
+          alt='auto'
         />
       </div>
     </span>

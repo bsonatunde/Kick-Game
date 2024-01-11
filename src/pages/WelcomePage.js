@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
 import ball1 from '../asset/ball.png';
 import ball2 from '../asset/ball.png';
 import logo from '../asset/KickLogo.png';
@@ -20,6 +19,7 @@ function WelcomePage() {
             </div>
             <img
              src={ball2}
+             alt='auto'
             />
           </span>
         </span>
@@ -51,9 +51,11 @@ function WelcomePage() {
       <div className="flex w-[703px] max-w-full flex-col mt-48 mb-8 self-start items-start max-md:mt-10">
         <img
         src={ball1}
+        alt='auto'
         />
         <img
        src={logo}
+       alt='auto'
         />
       </div>
     </div>

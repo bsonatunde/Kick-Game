@@ -1,10 +1,9 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
 import SideNavbar from "../component/SideNavbar/SideNavbar";
 import GameList from "../component/Game_mode/GameList";
 import GameCard from "../component/Game_mode/GameCard";
 
-function Game_mode () {
+function Gamemode () {
   return (
     <div className=" flex ">
       <div className="w-1/5">
@@ -31,4 +30,4 @@ function Game_mode () {
 }
 
 
-export default Game_mode;
+export default Gamemode;
