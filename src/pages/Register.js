@@ -1,7 +1,6 @@
 
 import React from 'react';
 import FormComponent from '../component/FormComponent';
-import foot from '../asset/Maskgroup.png';
 import logo from '../asset/KickLogo.png';
 
 
@@ -19,10 +18,7 @@ const Register = () => {
           Register to play
       </div>
       <FormComponent />
-      <img
-      src={foot}
-      alt='auto'
-      />
+     
     </div>
   );
 };

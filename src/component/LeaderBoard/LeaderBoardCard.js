@@ -11,6 +11,7 @@ function LeaderBoardCard() {
         <div className="text-white text-base self-center my-auto">01</div>
         <img
           src={fram}
+          alt='auto'
         />
         <div className="text-white text-base self-center my-auto">Francis</div>
       </span>
@@ -18,6 +19,7 @@ function LeaderBoardCard() {
       <div className="items-center self-center flex aspect-[1.263157894736842] flex-col justify-center my-auto">
         <img
           src={medal}
+          alt='auto'
         />
       </div>
     </span>

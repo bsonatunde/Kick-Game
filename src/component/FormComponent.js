@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const FormComponent = () => {
   // State to manage form input values
@@ -89,9 +90,9 @@ const FormComponent = () => {
         </label>
         </div>
         <br />
-        <button className="text-white text-sm whitespace-nowrap shadow-sm bg-pink-600 w-[240px] mx-[100px] item-center justify-center max-w-full mt-16 px-16 py-3.5 rounded-xl max-md:mt-10 max-md:px-5">
+        <Link to='/Home' className="text-white text-sm whitespace-nowrap shadow-sm bg-pink-600 w-[240px] mx-[100px] item-center justify-center max-w-full mt-16 px-16 py-3.5 rounded-xl max-md:mt-10 max-md:px-5">
             REGISTER
-        </button>
+        </Link>
       </form>
     </div>
     </div>

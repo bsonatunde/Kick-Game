@@ -23,6 +23,7 @@ const SideNavbar = () => {
       <div className="">
       <img
           src={logo}
+          alt='auto'
         />
          <Link to='/'>
         <span className="items-stretch hover:bg-pink-600 bg-opacity-20 self-stretch flex justify-between gap-4 mt-5 px-6 py-4 rounded-xl max-md:px-5">
@@ -30,16 +31,18 @@ const SideNavbar = () => {
        
         <img
            src={home}
+           alt='auto'
           />
           <div className="text-white text-opacity-60 text-sm leading-5 my-auto">
             Dashboard
           </div>
         </span>
         </Link>
-        <Link to='/Game_mode'>
+        <Link to='/Gamemode'>
         <span className="items-stretch self-stretch hover:bg-pink-600 flex justify-between gap-4 mt-4 px-6 py-4 rounded-xl max-md:px-5">
           <img
           src={play}
+          alt='auto'
           />
           <div className="text-white text-opacity-60 text-sm leading-5 my-auto">
             Play Mode
@@ -50,6 +53,7 @@ const SideNavbar = () => {
         <span className="items-stretch self-stretch hover:bg-pink-600 flex justify-between gap-4 mt-4 px-6 py-4 rounded-xl max-md:px-5">
           <img
             src={leader}
+            alt='auto'
           />
           <div className="text-white text-opacity-60 text-sm leading-5 my-auto">
             Leaderboard
@@ -60,6 +64,7 @@ const SideNavbar = () => {
         <span className="items-stretch self-stretch hover:bg-pink-600 flex justify-between gap-4 mt-4 px-6 py-4 rounded-xl max-md:px-5">
           <img
            src={categ}
+           alt='auto'
           />
           <div className="text-white text-opacity-60 text-sm leading-5 my-auto">
             Categories
@@ -70,16 +75,18 @@ const SideNavbar = () => {
         <span className="items-stretch self-stretch hover:bg-pink-600 flex justify-between gap-4 mt-4 px-6 py-4 rounded-xl max-md:px-5">
           <img
            src={player}
+           alt='auto'
           />
           <div className="text-white text-opacity-60 text-sm leading-5 my-auto">
             Multiplayer
           </div>
         </span>
         </Link>
-        <Link to='/'>
+        <Link to='/Gamemode'>
         <span className="items-stretch self-stretch hover:bg-pink-600 flex justify-between gap-4 mt-4 px-6 py-4 rounded-xl max-md:px-5">
           <img
            src={game}
+           alt='auto'
           />
           <div className="text-white text-opacity-60 text-sm leading-5 my-auto">
             Gaming stats
@@ -90,6 +97,7 @@ const SideNavbar = () => {
         <span className="items-stretch self-stretch hover:bg-pink-600 flex justify-between gap-4 mt-12 px-6 py-4 rounded-xl max-md:mt-10 max-md:px-5">
           <img
           src={how}
+          alt='auto'
           />
           <div className="text-white text-opacity-60 text-sm leading-5 my-auto">
             How to play
@@ -100,6 +108,7 @@ const SideNavbar = () => {
         <span className="items-stretch self-stretch hover:bg-pink-600 flex justify-between gap-4 mt-4 px-6 py-4 rounded-xl max-md:px-5">
           <img
          src={sett}
+         alt='auto'
           />
           <div className="text-white text-opacity-60 text-sm leading-5 my-auto">
             Settings
@@ -110,6 +119,7 @@ const SideNavbar = () => {
         <span className="items-stretch self-stretch hover:bg-pink-600 flex justify-between gap-4 mt-4 px-6 py-4 rounded-xl max-md:px-5">
           <img
            src={hel}
+           alt='auto'
           />
           <div className="text-white text-opacity-60 text-sm leading-5 my-auto">
             Help
@@ -120,6 +130,7 @@ const SideNavbar = () => {
         <span className="items-stretch self-stretch hover:bg-pink-600 flex justify-between gap-4 mt-4 px-6 py-4 rounded-xl max-md:px-5">
           <img
             src={log}
+            alt='auto'
           />
           <div className="text-white text-opacity-60 text-sm leading-5 my-auto">
             Logout
